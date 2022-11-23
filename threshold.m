@@ -1,5 +1,5 @@
 img=imread("coins.jpg");
-
+imshow(img)
 BW = imbinarize(img);
 mask=img;
 mask(~BW)=0;
