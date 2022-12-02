@@ -1,3 +1,4 @@
+% Final assesment program for introduction to image processing by MATHWORKS
 refImg = im2gray(imread("00004.jpg"));
 newImg = im2gray(imread("00143.jpg"));
 refThresh=graythresh(refImg);
