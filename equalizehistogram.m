@@ -1,0 +1,11 @@
+img=imread("00035.jpg");
+im=rgb2gray(img);
+img2=histeq(im);
+img5=imadjust(img2);
+img3=imbinarize(img5);
+img4=imcomplement(img3);
+imshow(img4);
+o=nnz(img4);
+%img2=imadjust(im);
+%imhist(img2)
+%montage({im,img2})
