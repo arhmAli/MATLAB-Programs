@@ -1,3 +1,6 @@
+%After certain testings the best
+%parameters are selected for the motor connected with arduino 
+%to have good step response for the given Pulse 
 clear all 
 a=arduino('COM4', 'Uno', 'Libraries', 'RotaryEncoder'); 
 encoder = rotaryEncoder(a,'D2','D3',475);
